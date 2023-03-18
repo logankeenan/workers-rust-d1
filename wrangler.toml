@@ -7,3 +7,9 @@ WORKERS_RS_VERSION = "0.0.11"
 
 [build]
 command = "cargo install -q worker-build --version 0.0.9 && worker-build --release"
+
+[[ d1_databases ]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "workers-rust-d1"
+database_id = "177d5226-e3c0-4c53-bc85-91d45dea7bd4"
+
